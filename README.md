@@ -3,7 +3,7 @@ A free and open source alternative to LinkTree!
 
 If you want to see an example --> [link](https://cioccasimone.000webhostapp.com)
 
-<img src="https://i.imgur.com/B4LX0kY.png" alt="alt text" width="250px">
+<img src="https://imgur.com/U3j1XnA" width="250px">
 
 ## What is LinkFreeTree?
 Ever wanted to add more links to your Instagram bio? LinkFreeTree does just that! It gathers all of your links into one page that is easy to navigate.
