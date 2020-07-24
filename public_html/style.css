@@ -41,6 +41,21 @@ body{
     text-decoration: none;
 }
 
+.header {
+	position: right;
+	text-align: right;
+}
+
+div.split3 div {
+    float: left;
+    width: 33.3%;
+}
+
+div.splitCV div {
+	margin:auto;
+    width: 33.3%;
+}
+
 #links{
     max-width: 675px;
     width: auto;
@@ -68,14 +83,11 @@ body{
     color: var(--accentColor);
 }
 
-#footer {
-    cursor: url("/cursor/Normal.cur"), auto;
+.footer {
 	position: fixed;
 	bottom: 4%;
 	left: 2%;
     right: 2%;
-	/*width: 95%;*/
-	text-align: center;
 }
 
 .creator {
