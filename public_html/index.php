@@ -26,7 +26,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/function/UserInfo.php');
 
 
 <body>
-	<img id="userPhoto" src="pic/userPhoto.png" alt="User Photo">
+	<img id="userPhoto" src="pic/userPhoto.jpg" alt="User Photo">
     
     <a id="userName">@cioccasimone97</a>
 	<div id="links">
