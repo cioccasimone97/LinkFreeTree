@@ -16,12 +16,10 @@
 }
 
 body{
-    cursor: url("/cursor/Normal.cur"), auto;
     background-color: var(--bgColor);
 }
 
 #userPhoto{
-	cursor: url("/cursor/Move.cur"), auto;
     width: 128px;
     height: 128px;
     display: block;
@@ -63,7 +61,6 @@ div.splitCV div {
     margin: 27px auto;
 }
 .link{
-    cursor: url("/cursor/Link.cur"), auto;
     display: block;
     background-color: var(--accentColor);
     color: var(--bgColor);

@@ -19,7 +19,13 @@ include($_SERVER['DOCUMENT_ROOT'].'/function/UserInfo.php');
 <!--Header-->
 <div class="header">
 	<small>
-		<b>IP: </b><?= UserInfo::get_ip();?> || <b>OS: </b><?= UserInfo::get_os();?> (<?= UserInfo::get_device();?>) || <b>Browser: </b><?= UserInfo::get_browser();?>
+		<b>IP: </b><?= UserInfo::get_ip();?> || <b>Uptime: </b>
+	</small>
+	<small id="demo">
+		<script src="/function/uptime_counter.js" type="text/javascript"></script>
+	</small>
+	<small>
+		|| <b>Browser: </b><?= UserInfo::get_browser();?>
 	</small>
 </div>
 
@@ -32,7 +38,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/function/UserInfo.php');
 	<div id="links">
 		<div class="splitCV">
 			<div>
-				<a class="link" href="https://<LINK>/PDF/Curriculum_Vitae.pdf" download="" target="_blank">Curriculum Vitae</a>
+				<a class="link" href="https://cioccasimone.000webhostapp.com/PDF/WORK_IN_PROGRESS.pdf" download="" target="_blank">Curriculum Vitae</a>
 			</div>
 		</div>
 			<a class="link" href="http://www.linkedin.com" target="_blank">LINKEDIN</a>
